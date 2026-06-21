@@ -1,0 +1,68 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 33 16% 10%;
+    --foreground: 33 10% 90%;
+    --card: 33 16% 12%;
+    --card-foreground: 33 10% 90%;
+    --popover: 33 16% 10%;
+    --popover-foreground: 33 10% 90%;
+    --primary: 40 85% 50%;
+    --primary-foreground: 33 16% 10%;
+    --secondary: 33 10% 20%;
+    --secondary-foreground: 33 10% 90%;
+    --muted: 33 10% 18%;
+    --muted-foreground: 33 10% 60%;
+    --accent: 14 80% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 33 10% 20%;
+    --input: 33 10% 20%;
+    --ring: 40 85% 50%;
+    --radius: 1rem;
+  }
+
+  .dark {
+    --background: 33 16% 10%;
+    --foreground: 33 10% 90%;
+    --card: 33 16% 12%;
+    --card-foreground: 33 10% 90%;
+    --popover: 33 16% 10%;
+    --popover-foreground: 33 10% 90%;
+    --primary: 40 85% 50%;
+    --primary-foreground: 33 16% 10%;
+    --secondary: 33 10% 20%;
+    --secondary-foreground: 33 10% 90%;
+    --muted: 33 10% 18%;
+    --muted-foreground: 33 10% 60%;
+    --accent: 14 80% 50%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 33 10% 20%;
+    --input: 33 10% 20%;
+    --ring: 40 85% 50%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+.font-headline {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+.font-body {
+  font-family: 'Inter', sans-serif;
+}

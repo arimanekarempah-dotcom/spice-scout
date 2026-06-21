@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "splash-bg",
+      "description": "Exotic spices piled in a traditional market",
+      "imageUrl": "https://picsum.photos/seed/spice-splash/1080/1920",
+      "imageHint": "exotic spices market"
+    },
+    {
+      "id": "business-grocery",
+      "description": "Modern grocery store interior",
+      "imageUrl": "https://picsum.photos/seed/grocery/600/400",
+      "imageHint": "grocery store"
+    },
+    {
+      "id": "business-warehouse",
+      "description": "Large food distribution warehouse",
+      "imageUrl": "https://picsum.photos/seed/warehouse/600/400",
+      "imageHint": "food warehouse"
+    },
+    {
+      "id": "business-market",
+      "description": "Traditional open air spice market",
+      "imageUrl": "https://picsum.photos/seed/market/600/400",
+      "imageHint": "spice market"
+    }
+  ]
+}
